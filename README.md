@@ -29,7 +29,7 @@ These test pages check for banner ads, popups, videos, and more.
 
 ---
 
-## Star or Gay
+# Star or Gay
 
 ---
 
