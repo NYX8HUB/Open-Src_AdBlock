@@ -29,7 +29,7 @@ These test pages check for banner ads, popups, videos, and more.
 
 ---
 
-# Star or Gay
+# ⭐ Star or Gay ⭐
 ## 📂 Installation
 
 1. Clone or download this repository.
