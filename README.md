@@ -12,6 +12,7 @@ Welcome to **Custom AdBlock**, a powerful and lightweight ad-blocking filter set
 - Stop third-party trackers and malicious domains
 - Works with Chromium-based extensions like uBlock Origin (MV3 mode), Brave, or custom blockers
 - Lightweight and easy to maintain (based on structured JSON rules)
+- Open Source (your own project)
 
 ---
 
@@ -35,4 +36,4 @@ These test pages check for banner ads, trackers, popups, crypto miners, and more
 3. Alternatively, integrate it into your own Chromium-based project.
 
 ```bash
-git clone https://github.com/yourusername/adblock-rules.git
+git clone https://github.com/NYX8HUB/Open-Src_AdClock.git
