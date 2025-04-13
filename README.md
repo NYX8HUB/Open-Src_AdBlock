@@ -25,7 +25,7 @@ You can test how effective your ad-blocking setup is using the following website
 - 🔗 [Can You Block It](https://canyoublockit.com)
 - 🔗 [Turtlecute AdBlock Test](https://adblock.turtlecute.org)
 
-These test pages check for banner ads, trackers, popups, crypto miners, and more.
+These test pages check for banner ads, popups, videos, and more.
 
 ---
 
