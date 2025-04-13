@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>AdBlock Pro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00c9a7;
+      --primary-dark: #00a58e;
+      --danger: #ff5e62;
+      --danger-dark: #f44336;
+      --bg: #1e1e2e;
+      --card-bg: #2a2a3a;
+      --text: #f0f0f5;
+      --text-light: #b8b8d1;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      width: 300px;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+      );
+      transform: rotate(30deg);
+      animation: shine 3s infinite;
+    }
+
+    @keyframes shine {
+      0% { left: -50%; }
+      100% { left: 150%; }
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      padding: 0 24px 20px;
+      flex-grow: 1;
+    }
+
+    button {
+      margin: 20px 0;
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 4px 16px rgba(0, 201, 167, 0.3);
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    button::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0)
+      );
+      transform: rotate(30deg);
+      transition: var(--transition);
+    }
+
+    button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 201, 167, 0.4);
+    }
+
+    button:hover::after {
+      left: 100%;
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    button.off {
+      background: linear-gradient(135deg, var(--danger), var(--danger-dark));
+      box-shadow: 0 4px 16px rgba(255, 94, 98, 0.3);
+    }
+
+    button.off:hover {
+      box-shadow: 0 8px 24px rgba(255, 94, 98, 0.4);
+    }
+
+    #counter {
+      margin: 20px 0;
+      font-size: 15px;
+      color: var(--text-light);
+      background: var(--card-bg);
+      padding: 12px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: var(--transition);
+    }
+
+    #counter:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .counter-number {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 18px;
+      transition: var(--transition);
+    }
+
+    .footer {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: auto;
+      padding: 14px 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .footer a::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: white;
+      transition: var(--transition);
+    }
+
+    .footer a:hover {
+      color: white;
+    }
+
+    .footer a:hover::after {
+      width: 100%;
+    }
+
+    .icon {
+      animation: pulse 2s infinite;
+      font-size: 24px;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    .loading {
+      position: relative;
+      color: transparent;
+      pointer-events: none;
+    }
+
+    .loading::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.2);
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      gap: 10px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      padding: 10px;
+      border-radius: 8px;
+      flex: 1;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: var(--transition);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .stat-value {
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--primary);
+      margin-top: 5px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-light);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h3><span class="icon">🛡️</span> AdBlock Pro</h3>
+  </div>
+
+  <div class="content">
+    <button id="toggle" class="loading">wait...</button>
+    
+    <div id="counter">
+      <div>Blocked ads: </div>
+      <div class="counter-number">0</div>
+    </div>
+    
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-label">Today</div>
+        <div class="stat-value" id="today">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Week</div>
+        <div class="stat-value" id="week">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total</div>
+        <div class="stat-value" id="total">0</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Made by <a href="https://github.com/NYX8HUB" target="_blank">66six</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
