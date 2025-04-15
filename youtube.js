@@ -3,7 +3,7 @@
 
 (function() {
     //
-    //      Config
+    //      Config 
     //
 
     // Enable The Undetected Adblocker
