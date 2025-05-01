@@ -1,9 +1,9 @@
 // thx https://github.com/TheRealJoelmatic/RemoveAdblockThing
-// fuck youtube!!!
+//fuck you youtube
 
 (function() {
     //
-    //      Config 
+    //      Config
     //
 
     // Enable The Undetected Adblocker
@@ -69,7 +69,7 @@
 
     // Adblocker method
     function removeAds() {
-        //log("removeAds()");
+        log("removeAds()");
 
         setInterval(() => {
             if (window.location.href !== currentUrl) {
@@ -80,7 +80,7 @@
             }
 
             if (window.location.href.includes("shorts")) {
-                //log("Youtube shorts detected, ignoring...");
+                log("Youtube shorts detected, ignoring...");
                 return;
             }
 
@@ -89,7 +89,7 @@
                 return;
             }
 
-           //log("Video replacement started!");
+            log("Video replacement started!");
 
             const video = document.querySelector('video');
             if (video) {
