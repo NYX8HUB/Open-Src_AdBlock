@@ -2,7 +2,7 @@
 
 Welcome to **Custom AdBlock**, a powerful and lightweight ad-blocking filter set designed for use with modern browsers that support [Chrome Manifest V3 `declarativeNetRequest`](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/). This project helps you eliminate intrusive ads, trackers, popups, and other annoying web elements while improving performance and privacy.
 
-![AdBlock in Action](https://github.com/NYX8HUB/Open-Src_AdClock/blob/main/Captura%20de%20tela%202025-04-13%20191852.png?raw=true)
+![AdBlock in Action](https://github.com/NYX8HUB/Open-Src_AdClock/blob/main/screenshot.png?raw=true)
 
 ---
 
