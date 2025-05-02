@@ -2103,7 +2103,7 @@
      "type": "block"
     },
     "condition": {
-      "urlFilter": ".textads",
+      "urlFilter": "##.textads",
       "resourceTypes": ["script", "xmlhttprequest", "sub_frame", "image"]
     }
   },
@@ -2114,7 +2114,7 @@
      "type": "block"
     },
     "condition": {
-      "urlFilter": ".adbox.banner_ads.adsbox",
+      "urlFilter": "##.adbox.banner_ads.adsbox",
       "resourceTypes": ["script", "xmlhttprequest", "sub_frame", "image"]
     }
   },
@@ -2567,6 +2567,248 @@
     },
     "condition": {
       "urlFilter": ".com/_xa",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 196,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/pagead.js",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 197,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "googletagmanager.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 198,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "iot-eu-logser.realme.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 199,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "iot-logser.realme.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 200,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "api-adservices.apple.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 201,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "mc.yandex.ru",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 202,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "js.sentry-cdn.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 203,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "bugsnag.min.js",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 204,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "hotjar-analytics.",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 205,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "cdn.fastclick.",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 206,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "fastclick.",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 207,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "assoc-amazon.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 208,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "ads-twitter.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 209,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "extmaps-api.yandex.net",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 210,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "youtube.cleverads.vn",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 211,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "app.chat.xiaomi.net",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 212,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "globalapi.ad.xiaomi.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 213,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "cdn.ad.xiaomi.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 214,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "click.oneplus.cn",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 215,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "nmetrics.samsung.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 216,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "analytics.samsungknox.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 217,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/banners/pr_advertising_ads_banner.swf?v=1",
       "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
     }
   }
