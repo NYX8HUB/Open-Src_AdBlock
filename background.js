@@ -1,7 +1,6 @@
 let enabled = true;
 let blockedCount = 0;
 
-// Atualiza o contador quando uma regra de bloqueio é ativada
 chrome.declarativeNetRequest.onRuleMatchedDebug.addListener((info) => {
   if (!enabled) return;
 
@@ -27,6 +26,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     chrome.storage.local.get('blockedCount', (data) => {
       sendResponse({ blockedCount: data.blockedCount ?? 0 });
     });
-    return true; // Indica que vamos responder de forma assíncrona
+    return true; 
   }
 });

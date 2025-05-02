@@ -6,26 +6,20 @@
     //      Config
     //
 
-    // Enable The Undetected Adblocker
     const adblocker = true;
 
-    // Enable The Popup remover (pointless if you have the Undetected Adblocker)
     const removePopup = false;
 
-    // Enable debug messages into the console
     const debugMessages = true;
 
-    // Fix timestamps in the youtube comments for new method
     const fixTimestamps = true;
 
     //
     //      CODE
     //
 
-    // Store the initial URL
     let currentUrl = window.location.href;
 
-    // Used for after the player is updated
     let isVideoPlayerModified = false;
 
     //
@@ -38,7 +32,6 @@
     if (removePopup) popupRemover();
     if (fixTimestamps) timestampFix();
 
-    // Remove popups
     function popupRemover() {
         setInterval(() => {
             const modalOverlay = document.querySelector("tp-yt-iron-overlay-backdrop");
@@ -67,7 +60,6 @@
         }, 1000);
     }
 
-    // Adblocker method
     function removeAds() {
         log("removeAds()");
 

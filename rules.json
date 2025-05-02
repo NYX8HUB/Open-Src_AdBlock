@@ -2558,5 +2558,16 @@
       "urlFilter": ".textads",
       "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
     }
+  },
+  {
+    "id": 195,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".com/_xa",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
   }
 ]

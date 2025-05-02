@@ -8,13 +8,16 @@
     :root {
       --primary: #00c9a7;
       --primary-dark: #00a58e;
+      --primary-glow: rgba(0, 201, 167, 0.15);
       --danger: #ff5e62;
       --danger-dark: #f44336;
-      --bg: #1e1e2e;
-      --card-bg: #2a2a3a;
+      --danger-glow: rgba(255, 94, 98, 0.15);
+      --bg: #121218;
+      --card-bg: #1e1e2e;
+      --card-border: rgba(255, 255, 255, 0.05);
       --text: #f0f0f5;
       --text-light: #b8b8d1;
-      --shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+      --shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
       --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
 
@@ -31,6 +34,7 @@
       flex-direction: column;
       border-radius: 16px;
       overflow: hidden;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.03);
     }
 
     .header {
@@ -40,6 +44,17 @@
       box-shadow: var(--shadow);
       position: relative;
       overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--danger));
+      opacity: 0.8;
     }
 
     .header::after {
@@ -74,7 +89,7 @@
       gap: 10px;
       position: relative;
       z-index: 1;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     .content {
@@ -93,10 +108,28 @@
       color: white;
       cursor: pointer;
       transition: var(--transition);
-      box-shadow: 0 4px 16px rgba(0, 201, 167, 0.3);
+      box-shadow: 0 4px 20px var(--primary-glow);
       width: 100%;
       position: relative;
       overflow: hidden;
+      z-index: 1;
+    }
+
+    button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      opacity: 0;
+      transition: var(--transition);
+      z-index: -1;
+    }
+
+    button:hover::before {
+      opacity: 1;
     }
 
     button::after {
@@ -117,7 +150,7 @@
 
     button:hover {
       transform: translateY(-3px);
-      box-shadow: 0 8px 24px rgba(0, 201, 167, 0.4);
+      box-shadow: 0 8px 30px var(--primary-glow);
     }
 
     button:hover::after {
@@ -130,11 +163,15 @@
 
     button.off {
       background: linear-gradient(135deg, var(--danger), var(--danger-dark));
-      box-shadow: 0 4px 16px rgba(255, 94, 98, 0.3);
+      box-shadow: 0 4px 20px var(--danger-glow);
+    }
+
+    button.off::before {
+      background: linear-gradient(135deg, var(--danger-dark), var(--danger));
     }
 
     button.off:hover {
-      box-shadow: 0 8px 24px rgba(255, 94, 98, 0.4);
+      box-shadow: 0 8px 30px var(--danger-glow);
     }
 
     #counter {
@@ -144,13 +181,14 @@
       background: var(--card-bg);
       padding: 12px;
       border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: var(--shadow);
       transition: var(--transition);
+      border: 1px solid var(--card-border);
     }
 
     #counter:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     }
 
     .counter-number {
@@ -158,6 +196,7 @@
       color: var(--primary);
       font-size: 18px;
       transition: var(--transition);
+      text-shadow: 0 0 8px var(--primary-glow);
     }
 
     .footer {
@@ -165,8 +204,8 @@
       color: var(--text-light);
       margin-top: auto;
       padding: 14px 24px;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      background: rgba(0, 0, 0, 0.1);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.2);
     }
 
     .footer a {
@@ -183,8 +222,8 @@
       bottom: -2px;
       left: 0;
       width: 0;
-      height: 2px;
-      background: white;
+      height: 1px;
+      background: var(--primary);
       transition: var(--transition);
     }
 
@@ -199,6 +238,7 @@
     .icon {
       animation: pulse 2s infinite;
       font-size: 24px;
+      filter: drop-shadow(0 0 4px rgba(0, 201, 167, 0.5));
     }
 
     @keyframes pulse {
@@ -240,16 +280,17 @@
 
     .stat-card {
       background: var(--card-bg);
-      padding: 10px;
-      border-radius: 8px;
+      padding: 12px;
+      border-radius: 10px;
       flex: 1;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: var(--shadow);
       transition: var(--transition);
+      border: 1px solid var(--card-border);
     }
 
     .stat-card:hover {
       transform: translateY(-3px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     }
 
     .stat-value {
@@ -257,11 +298,43 @@
       font-size: 16px;
       color: var(--primary);
       margin-top: 5px;
+      text-shadow: 0 0 8px var(--primary-glow);
     }
 
     .stat-label {
       font-size: 12px;
       color: var(--text-light);
+      opacity: 0.8;
+    }
+
+    /* Neon glow effect for active state */
+    .active-glow {
+      position: relative;
+    }
+
+    .active-glow::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--primary), var(--danger));
+      z-index: -1;
+      opacity: 0;
+      transition: var(--transition);
+      animation: glow-pulse 2s infinite;
+    }
+
+    button:hover.active-glow::before {
+      opacity: 0.7;
+    }
+
+    @keyframes glow-pulse {
+      0% { opacity: 0.5; }
+      50% { opacity: 0.8; }
+      100% { opacity: 0.5; }
     }
   </style>
 </head>
@@ -271,7 +344,7 @@
   </div>
 
   <div class="content">
-    <button id="toggle" class="loading">wait...</button>
+    <button id="toggle" class="loading active-glow">wait...</button>
     
     <div id="counter">
       <div>Blocked ads: </div>
@@ -295,7 +368,7 @@
   </div>
 
   <div class="footer">
-    Made by <a href="https://github.com/NYX8HUB" target="_blank">66six</a>
+    Made with ❤️ by <a href="https://github.com/NYX8HUB" target="_blank">66six</a>
   </div>
 
   <script src="popup.js"></script>

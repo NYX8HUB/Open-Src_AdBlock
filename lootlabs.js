@@ -1,5 +1,3 @@
-console.log("[NS Blocker] lootlabs.js executando...");
-
 function removeAdblockOverlay() {
   const allDivs = document.querySelectorAll("div");
 
