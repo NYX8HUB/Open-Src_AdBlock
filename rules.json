@@ -2943,5 +2943,93 @@
       "urlFilter": "d29lduyskr59p4.cloudfront.net",
       "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
     }
+  },
+  {
+    "id": 230,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "googleads.g.doubleclick.net",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 231,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "safeframe.googlesyndication.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 232,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "46de0167f34ff6655089f0eb28a3b92f.safeframe.googlesyndication.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 233,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "tpc.googlesyndication.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 234,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "www.bing.com/api/v1/mediation",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 235,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "imasdk.googleapis.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 236,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "config.seedtag.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 237,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "adsdk.microsoft.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
   }
 ]
