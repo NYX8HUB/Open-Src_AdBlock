@@ -37,7 +37,13 @@
       "run_at": "document_end"
     },
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+      "https://loot-link.com/*",
+      "https://www.loot-link.com/*",
+      "https://lootdest.org/*",
+      "https://www.lootdest.org/*",
+      "https://ads.luarmor.net/*"
+      ],
       "js": ["bypass.js"],
       "run_at": "document_end"
     }
