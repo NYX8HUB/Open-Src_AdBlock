@@ -2811,5 +2811,137 @@
       "urlFilter": "/banners/pr_advertising_ads_banner.swf?v=1",
       "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
     }
+  },
+  {
+    "id": 218,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "tomlldahehun.org",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 219,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "quantcast.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 220,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "themoneytizer.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 221,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "tjs/jquery-3.5.1.min.",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 222,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/js/ads.js",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 223,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "www.googletagmanager.com/gtag/",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 224,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 225,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "ws.quotersoxbane.top",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 226,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "ph.eurosexcuses.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 227,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "novemberdismount.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 228,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "cs.leedsneurite.com",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
+  },
+  {
+    "id": 229,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "d29lduyskr59p4.cloudfront.net",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
+    }
   }
 ]
