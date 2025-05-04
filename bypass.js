@@ -1,6 +1,7 @@
 function removeAdblockOverlay() {
   const allDivs = document.querySelectorAll("div");
 
+  // lootlabs poor
   allDivs.forEach(div => {
     const text = div.innerText?.toLowerCase();
     if (text && text.includes("please disable your adblocker")) {
@@ -8,7 +9,8 @@ function removeAdblockOverlay() {
       console.log("ok");
     }
   });
-
+  
+  // luarmor sucks
   const swal = document.querySelector(".swal2-container");
   if (swal) {
     swal.remove();
