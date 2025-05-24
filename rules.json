@@ -5004,5 +5004,21 @@
         "script"
       ]
     }
+  },
+  {
+    "id": 366,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "youtube.com/s/_/ytmainappweb",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
   }
 ]
