@@ -3196,5 +3196,1813 @@
       "urlFilter": "api.my-ip.io",
       "resourceTypes": ["xmlhttprequest", "sub_frame", "image", "script"]
     }
+  },
+  {
+    "id": 253,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/ads~adsize~",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 254,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/adtech;",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 255,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/jquery.ad.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 256,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/jquery.adi.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 257,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/jquery.lazyload-ad.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 258,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/jquery.openxtag.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 259,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/jquery.overlayad.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 260,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/jquery.popunder.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 261,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/js/flyad.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 262,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/js/pushjs/1.0.0/subscriber.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 263,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/nxst-advertising/dist/htlbid-advertising.min.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 264,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/revopush_v2.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 265,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/scripts/FlyAd.js",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 266,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/vendors~ads.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 267,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120-600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 268,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120-600.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 269,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120_600.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 270,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120_600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 271,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120x600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 272,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120x600.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 273,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/120x600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 274,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/125x600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 275,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/125x600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 276,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/130x600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 277,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160-600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 278,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160-600.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 279,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160_600.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 280,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160_600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 281,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160x400-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 282,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160x400_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 283,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160x600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 284,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160x600.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 285,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/160x600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 286,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/190_900.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 287,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300-250-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 288,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300-250.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 289,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300-600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 290,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300_250_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 291,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x150_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x250-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 293,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x250_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 294,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x250b.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 295,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x350.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 296,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x600-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 297,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300x600_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 298,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/300xx250.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 299,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/335x205_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 300,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/336x280-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 301,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/336x280.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 302,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/336x280_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 303,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/428x60.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 304,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/460x60.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 305,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/460x80_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 306,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468-20.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 307,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468-60-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 308,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468-60.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 309,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468-60_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 310,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468_60_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 311,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468_80.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 312,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x060.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 313,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x060_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 314,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x150-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 315,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x280.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 316,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x280_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 317,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x60-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 318,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x60_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 319,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x72.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 320,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x72_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 321,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x80-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 322,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x80.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 323,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/468x80_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 324,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/470x030_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 325,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/480x030.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 326,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/480x030_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 327,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/480x60-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 328,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/480x60.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 329,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/480x60_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 330,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/480x70_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 331,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/486x60_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 332,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/496_98_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 333,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/600-160-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/600-60.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 335,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/600-90.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 336,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/600_120_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 337,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/600_90_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 338,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/600x75_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 339,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/60x468.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 340,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/640x80-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 341,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/660x120_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 342,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/700_100_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 343,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/700_200.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 344,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/700x100.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 345,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728-90-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 346,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728-90.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 347,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728-90_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 348,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728_200.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 349,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728_200_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 350,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728_90.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 351,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728_90_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 352,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728x90-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 353,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/728x90_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 354,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/750-100.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 355,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/750_150.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 356,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/750x100.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 357,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/760x120.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 358,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/760x120_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 359,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/760x90_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 360,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/768x90-",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 361,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/768x90.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 362,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/780x90.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 363,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/80x468_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 364,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/960_60_",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 365,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/980x90.",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
   }
 ]
