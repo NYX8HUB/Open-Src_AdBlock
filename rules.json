@@ -5020,5 +5020,37 @@
         "script"
       ]
     }
+  },
+  {
+    "id": 367,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "#content",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 368,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "ad",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "script"
+      ]
+    }
   }
 ]
